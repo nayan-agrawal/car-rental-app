@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Sections/Header";
+import HeroSection from "./Components/Sections/HeroSection";
+import GetStarted from "./Components/Sections/GetStarted";
+import AboutSection from "./Components/Sections/AboutSection";
+import FeaturesSection from "./Components/Sections/FeaturesSection";
+import Footer from "./Components/Sections/Footer";
+import BlogSection from "./Components/Sections/BlogSection";
+import ContactSection from "./Components/Sections/ContactSection";
+import NewsletterSection from "./Components/Sections/NewsletterSection";
+import PricingSection from "./Components/Sections/PricingSection";
+import ScreenshotSection from "./Components/Sections/ScreenshotSection";
+import TeamsSection from "./Components/Sections/TeamsSection";
+import TestimonialsSection from "./Components/Sections/TestimonialsSection";
+import VideoSection from "./Components/Sections/VideoSection";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <HeroSection />
+      <main>
+        <GetStarted />
+        <AboutSection />
+        <FeaturesSection />
+        <ScreenshotSection />
+        <VideoSection />
+        <TeamsSection />
+        <TestimonialsSection />
+        <PricingSection />
+        <BlogSection />
+        <NewsletterSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 }
