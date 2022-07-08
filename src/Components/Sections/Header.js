@@ -73,8 +73,8 @@ const Header = () => {
             <div className="container d-flex align-items-center justify-content-between">
 
                 <div id="logo">
-                    <h1><a href="index.html"><span>e</span>Startup</a></h1>
-                    {/* <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a> */}
+                    {/* <h1><a href="index.html"><span>e</span>Startup</a></h1> */}
+                    <a href="/"><img src="assets/img/logo.png" alt="" title="" width="20%" /></a>
                 </div>
 
                 <nav id="navbar" className="navbar">
@@ -82,8 +82,8 @@ const Header = () => {
                         <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
                         <li><a className="nav-link scrollto" href="#about-us">About</a></li>
                         <li><a className="nav-link scrollto" href="#features">Features</a></li>
-                        <li><a className="nav-link scrollto" href="#screenshots">Screenshots</a></li>
-                        <li><a className="nav-link scrollto" href="#team">Team</a></li>
+                        <li><a className="nav-link scrollto" href="#screenshots">Gallery</a></li>
+                        {/* <li><a className="nav-link scrollto" href="#team">Team</a></li>
                         <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
                         <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                             <ul>
@@ -101,7 +101,7 @@ const Header = () => {
                                 <li><a href="#">Drop Down 3</a></li>
                                 <li><a href="#">Drop Down 4</a></li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle" onClick={activateMobileNav}></i>

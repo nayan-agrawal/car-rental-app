@@ -23,12 +23,10 @@ const App = () => {
         <AboutSection />
         <FeaturesSection />
         <ScreenshotSection />
-        <VideoSection />
-        <TeamsSection />
         <TestimonialsSection />
-        <PricingSection />
+        {/* <PricingSection />
         <BlogSection />
-        <NewsletterSection />
+        <NewsletterSection /> */}
         <ContactSection />
       </main>
       <Footer />

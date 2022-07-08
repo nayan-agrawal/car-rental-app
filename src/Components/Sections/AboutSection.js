@@ -5,25 +5,27 @@ const AboutSection = () => {
         <div>
             <section id="about-us" className="about-us padd-section">
                 <div className="container" data-aos="fade-up">
-                    <div className="row justify-content-center">
+                    <div className="row d-flex justify-content-around align-items-center">
 
-                        <div className="col-md-5 col-lg-3">
+                        <div className="col-md-5 col-lg-4">
                             <img src="assets/img/about-img.png" alt="About" data-aos="zoom-in" data-aos-delay="100" />
                         </div>
 
                         <div className="col-md-7 col-lg-5">
                             <div className="about-content" data-aos="fade-left" data-aos-delay="100">
 
-                                <h2><span>eStartup</span>UI Design Mobile </h2>
-                                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                <h2><span>About Us</span></h2>
+                                <p>
+                                    Car Rental Nagpur is Nagpur's largest car rental and taxi service providers. We provide cars on rent with our police verified courteous drivers for weddings, outstation tours, corporate meetings, one day tour in Nagpur and outstation tours from Nagpur to other cities and states all over India.
                                 </p>
 
                                 <ul className="list-unstyled">
-                                    <li><i className="vi bi-chevron-right"></i>Creative Design</li>
-                                    <li><i className="vi bi-chevron-right"></i>Retina Ready</li>
-                                    <li><i className="vi bi-chevron-right"></i>Easy to Use</li>
-                                    <li><i className="vi bi-chevron-right"></i>Unlimited Features</li>
-                                    <li><i className="vi bi-chevron-right"></i>Unlimited Features</li>
+                                    <li><i className="vi bi-chevron-right"></i>Courteous Police Verified and Friendly Drivers</li>
+                                    <li><i className="vi bi-chevron-right"></i>24 X 7 Support</li>
+                                    <li><i className="vi bi-chevron-right"></i>Booking in 2 minutes</li>
+                                    <li><i className="vi bi-chevron-right"></i>100% Door Step Pickup & Drop Facilities</li>
+                                    <li><i className="vi bi-chevron-right"></i>Affordable, Transparent Charges</li>
+                                    <li><i className="vi bi-chevron-right"></i>Safest Drive to Destiny</li>
                                 </ul>
 
                             </div>

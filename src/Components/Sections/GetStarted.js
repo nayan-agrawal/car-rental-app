@@ -1,4 +1,5 @@
 import React from 'react'
+import ServicesCards from '../Pages/Services/components/ServicesCards'
 
 const GetStarted = () => {
     return (
@@ -8,8 +9,10 @@ const GetStarted = () => {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title text-center">
 
-                        <h2>simple systeme fordiscount </h2>
-                        <p className="separator">Integer cursus bibendum augue ac cursus .</p>
+                        <h2>Our Services </h2>
+                        <p className="separator">
+                            Across the Nagpur we are famous for our car rental services. Some of our services for which our clients get back to us are.
+                        </p>
 
                     </div>
                 </div>
@@ -17,38 +20,41 @@ const GetStarted = () => {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-                            <div className="feature-block">
-
-                                <img src="assets/img/svg/cloud.svg" alt="img" />
-                                <h4>introducing whatsapp</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                <a href="#">read more</a>
-
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-                            <div className="feature-block">
-
-                                <img src="assets/img/svg/planet.svg" alt="img" />
-                                <h4>user friendly interface</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                <a href="#">read more</a>
-
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-                            <div className="feature-block">
-
-                                <img src="assets/img/svg/asteroid.svg" alt="img" />
-                                <h4>build the app everyone love</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                <a href="#">read more</a>
-
-                            </div>
-                        </div>
+                        <ServicesCards
+                            title="Wedding Car Rental in Nagpur"
+                            description="Every couple desired to arrive at their wedding or reception in style. If you are arranging a wedding or reception in Nagpur, we will provide you with the best luxury car and ensure that your wedding is unforgettable. We have a large selection of high-end cars that are synonymous with luxury and comfort. Book a premium car in Nagpur from Car Rental Nagpur to wow your partners and visitors."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
+                        
+                        <ServicesCards
+                            title="Corporate Car Rental in Nagpur"
+                            description="Not only for its workers but also for business meetings and conferences, Car Rental Nagpur provides a large selection of premium cars. To provide outstanding service, we adapt our great customer care and a huge variety of luxury vehicles to business class customers. When you employ us, we do everything we can to represent your company and leave a positive impression on our clients. Simply give us a call to book a trip with us."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
+                        
+                        <ServicesCards
+                            title="Outside Car Rental in Nagpur"
+                            description="We all wish to spend a long weekend with our families and friends visiting destinations outside of Nagpur. Why stress about your finances if you don't have to? Car Rental Nagpur has a wide range of cars available for you to take a break from your busy routine and have a wonderful weekend with your family at the most inexpensive price."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
+                        
+                        <ServicesCards
+                            title="Wedding Car Rental in Nagpur"
+                            description="Every couple desired to arrive at their wedding or reception in style. If you are arranging a wedding or reception in Nagpur, we will provide you with the best luxury car and ensure that your wedding is unforgettable. We have a large selection of high-end cars that are synonymous with luxury and comfort. Book a premium car in Nagpur from Car Rental Nagpur to wow your partners and visitors."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
+                        
+                        <ServicesCards
+                            title="Wedding Car Rental in Nagpur"
+                            description="Every couple desired to arrive at their wedding or reception in style. If you are arranging a wedding or reception in Nagpur, we will provide you with the best luxury car and ensure that your wedding is unforgettable. We have a large selection of high-end cars that are synonymous with luxury and comfort. Book a premium car in Nagpur from Car Rental Nagpur to wow your partners and visitors."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
+                        
+                        <ServicesCards
+                            title="Wedding Car Rental in Nagpur"
+                            description="Every couple desired to arrive at their wedding or reception in style. If you are arranging a wedding or reception in Nagpur, we will provide you with the best luxury car and ensure that your wedding is unforgettable. We have a large selection of high-end cars that are synonymous with luxury and comfort. Book a premium car in Nagpur from Car Rental Nagpur to wow your partners and visitors."
+                            imageUrl="assets/img/svg/planet.svg" 
+                        />
 
                     </div>
                 </div>

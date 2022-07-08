@@ -17,8 +17,8 @@ const ScreenshotSection = () => {
 
                 <div className="container" data-aos="fade-up">
                     <div className="section-title text-center">
-                        <h2>App Gallery</h2>
-                        <p className="separator">Integer cursus bibendum augue ac cursus .</p>
+                        <h2>Our Car Inventory</h2>
+                        <p className="separator">We have a large collection of cars for all your needs.</p>
                     </div>
 
                     <Swiper
@@ -40,14 +40,15 @@ const ScreenshotSection = () => {
                         }}
                         pagination={{ clickable: true }}
                     >
-                        <SwiperSlide><img src="assets/img/screen/1.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/2.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/3.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/4.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/5.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/6.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/7.jpg" className="img-fluid" alt="" /></SwiperSlide>
-                        <SwiperSlide><img src="assets/img/screen/8.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/audi-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/ertiga-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/honda-amaze-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/innova-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/mercedes-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/suv-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/swift-dzire-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/Tata-Indigo-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
+                        <SwiperSlide><img src="assets/img/screen/tata-sumo-car-rental.jpg" className="img-fluid" alt="" /></SwiperSlide>
                     </Swiper>
                 </div>
 

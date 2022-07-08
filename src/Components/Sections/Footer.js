@@ -30,8 +30,10 @@ const Footer = () => {
                         <div className="col-md-12 col-lg-4">
                             <div className="footer-logo">
 
-                                <a className="navbar-brand" href="#">eStartup</a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                                <a href="/"><img src="assets/img/logo.png" alt="" title="" className='mb-3' width="20%" /></a>
+                                <p>
+                                    Car Rental Nagpur is Nagpur's largest car rental and taxi service providers. We provide cars on rent with our police verified courteous drivers for weddings, outstation tours, corporate meetings, one day tour in Nagpur and outstation tours from Nagpur to other cities and states all over India.
+                                </p>
 
                             </div>
                         </div>
@@ -101,9 +103,9 @@ const Footer = () => {
 
                 <div className="copyrights">
                     <div className="container">
-                        <p>&copy; Copyrights eStartup. All rights reserved.</p>
+                        <p>&copy; Copyrights Car Rental Nagpur. All rights reserved.</p>
                         <div className="credits">
-                            Designed by <a href="">Car Rental Website</a>
+                            Designed by <a href="">Car Rental Nagpur</a>
                         </div>
                     </div>
                 </div>
